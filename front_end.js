@@ -10,8 +10,8 @@ function callback_donut(response){
    };
 
   Plotly.newPlot('Div_Donut',donuts,layout);
-  document.getElementById("starting_year_input").value = innerHTML = "";
-  document.getElementById("ending_year_input").value = innerHTML = "";
+  document.getElementById("starting_year_input").value = "";
+  document.getElementById("ending_year_input").value = "";
 
 } 
 
@@ -35,7 +35,7 @@ function callback_scatter(response){
    };
   
   Plotly.newPlot('Div_Scatter', scatter['data'], layout)
-  document.getElementById("year_input").value = innerHTML = "";
+  document.getElementById("year_input").value = "";
 }
 
 
